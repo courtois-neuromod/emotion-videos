@@ -135,24 +135,24 @@ body:
     label: task-emotionvideos_run-06 notes
 
 
-    - type: markdown
-      attributes:
-        value: "## task-emotionvideos_run-06"
-    - type: checkboxes
-      attributes:
-        label: task-emotionvideos_run-06 completion  
-        options:
-          - label: series was completed.
-    - type: dropdown
-      attributes:
-        label: task-emotionvideos_run-06 issues
-        multiple: true
-        options:
-          - sleep
-          - excessive motion
-          - eyetracking issues (crash, pupil loss)
-          - physio signal quality issue
+- type: markdown
+  attributes:
+    value: "## task-emotionvideos_run-06"
+- type: checkboxes
+  attributes:
+    label: task-emotionvideos_run-06 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-emotionvideos_run-06 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
 
-    - type: textarea
-      attributes:
-        label: task-emotionvideos_run-06 notes
+- type: textarea
+  attributes:
+    label: task-emotionvideos_run-06 notes
