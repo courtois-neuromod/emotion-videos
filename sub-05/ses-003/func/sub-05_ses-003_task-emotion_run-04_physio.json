@@ -3,10 +3,10 @@
     "StartTime": 9.0004,
     "Columns": [
         "time",
-        "PPG100C",
-        "ECG100C",
-        "Custom, HLT100C - A 5",
-        "DA100C",
-        "EDA100C-MRI"
+        "PPG",
+        "ECG",
+        "TTL",
+        "RSP",
+        "EDA"
     ]
 }
