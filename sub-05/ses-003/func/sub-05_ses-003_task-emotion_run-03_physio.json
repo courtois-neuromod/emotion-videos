@@ -1,0 +1,12 @@
+{
+    "SamplingFrequency": 10000.0,
+    "StartTime": 9.0003,
+    "Columns": [
+        "time",
+        "PPG100C",
+        "ECG100C",
+        "Custom, HLT100C - A 5",
+        "DA100C",
+        "EDA100C-MRI"
+    ]
+}
