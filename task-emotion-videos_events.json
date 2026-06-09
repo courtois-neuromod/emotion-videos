@@ -1,0 +1,20 @@
+{
+    "StimulusPresentation": {
+        "ScreenDistance": 1.8,
+        "ScreenDistanceUnits": "meters",
+        "ScreenSize": [
+            0.55,
+            0.44
+        ],
+        "ScreenSizeUnits": "meters",
+        "ScreenOrigin": [
+            "bottom",
+            "left"
+        ],
+        "ScreenResolution": [
+            1280,
+            1024
+        ],
+        "ScreenResolutionUnits": "pixels"
+    }
+}

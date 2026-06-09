@@ -1,1 +1,4 @@
 .pybids_cache/**
+
+# QC files list
+code/QC_gaze/*
