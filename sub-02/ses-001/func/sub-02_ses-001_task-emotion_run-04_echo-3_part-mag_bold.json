@@ -76,5 +76,6 @@
   "TaskName": "emotion",
   "TotalReadoutTime": 0.0192267,
   "TxRefAmp": 295.435,
-  "WipMemBlock": "bb47ae33-fc60-4cd6-b694-e491807562b8||Sequence: R017 ve11c/master r/75a17815+; Jun 28 2022 16:32:11 by eja"
+  "WipMemBlock": "bb47ae33-fc60-4cd6-b694-e491807562b8||Sequence: R017 ve11c/master r/75a17815+; Jun 28 2022 16:32:11 by eja",
+  "dcmmeta_shape": [104, 104, 70, 190]
 }
