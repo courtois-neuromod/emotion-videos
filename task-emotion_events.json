@@ -1,0 +1,18 @@
+{
+    "StimulusPresentation": {
+        "ScreenDistance": 1.8,
+        "ScreenOrigin": [
+            "bottom",
+            "left"
+        ],
+        "ScreenRefreshRate": 60,
+        "ScreenResolution": [
+            1280,
+            1024
+        ],
+        "ScreenSize": [
+            0.55,
+            0.44
+        ]
+    }
+}

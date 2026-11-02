@@ -1,0 +1,16 @@
+{
+    "Columns": [
+        "onset",
+        "duration"
+    ],
+    "Description": "Eye-tracking camera freezes.",
+    "OnsetSource": "timestamp",
+    "onset": {
+        "Description": "Onset of the camera freeze event.",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the camera freeze event.",
+        "Units": "seconds"
+    }
+}
