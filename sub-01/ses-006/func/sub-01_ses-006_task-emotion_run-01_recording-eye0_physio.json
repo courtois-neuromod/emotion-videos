@@ -1,0 +1,128 @@
+{
+    "DeviceSerialNumber": "HighSpeed-MR_CAM_HS_0019",
+    "Columns": [
+        "timestamp",
+        "x_coordinate",
+        "y_coordinate",
+        "confidence",
+        "pupil_x_coordinate",
+        "pupil_y_coordinate",
+        "pupil_diameter",
+        "pupil_ellipse_axe_a",
+        "pupil_ellipse_axe_b",
+        "pupil_ellipse_angle",
+        "pupil_ellipse_center_x",
+        "pupil_ellipse_center_y"
+    ],
+    "Manufacturer": "MRC",
+    "ManufacturersModelName": "MRC-HighSpeed",
+    "PhysioType": "eyetrack",
+    "RecordedEye": "right",
+    "SamplingFrequency": 250.0,
+    "SampleCoordinateSystem": "gaze-on-screen",
+    "SoftwareVersion": "Pupil Capture version 3.2.763",
+    "PupilFitMethod": "ellipse",
+    "CalibrationType": "HV9",
+    "CalibrationPosition": [
+        [
+            1180,
+            924
+        ],
+        [
+            640,
+            924
+        ],
+        [
+            100,
+            100
+        ],
+        [
+            100,
+            924
+        ],
+        [
+            640,
+            100
+        ],
+        [
+            1180,
+            512
+        ],
+        [
+            100,
+            512
+        ],
+        [
+            640,
+            512
+        ],
+        [
+            1180,
+            100
+        ]
+    ],
+    "CalibrationUnit": "pixel",
+    "EyeCameraSettings": {
+        "exposure_time": 4000,
+        "global_gain": 1
+    },
+    "EyeTrackerDistance": 0.1,
+    "EyeTrackingMethod": "pupil-labs/pupil-detectors:2d",
+    "StartTime": 0.002755966503173113,
+    "Duration": 501.2842823998071,
+    "TotalGazeCount": 123658,
+    "CameraFreezeCount": 1,
+    "timestamp": {
+        "Description": "A continuously increasing identifier of the sampling time registered by the device",
+        "Units": "seconds",
+        "Origin": "run trigger onset"
+    },
+    "x_coordinate": {
+        "LongName": "Gaze position (x)",
+        "Description": "Gaze position x-coordinate of the recorded eye, normalized as a proportion of the screen width. Bound = [0, 1], where 0 = left. Coordinates outside the [0, 1] range indicate offscreen gaze position (< 0 left of screen, > 1 right of screen).",
+        "Units": "arbitrary"
+    },
+    "y_coordinate": {
+        "LongName": "Gaze position (y)",
+        "Description": "Gaze position y-coordinate of the recorded eye, normalized as a proportion of the screen height. Bound = [0, 1], where 0 = bottom. Coordinates outside the [0, 1] range indicate offscreen gaze position (< 0 below screen, > 1 above screen).",
+        "Units": "arbitrary"
+    },
+    "confidence": {
+        "Description": "Quality assessment of the pupil detection ranging from 0 to 1. A value of 0 indicates that the pupil could not be detected, whereas a value of 1 indicates a very high pupil detection certainty.",
+        "Units": "ratio"
+    },
+    "pupil_x_coordinate": {
+        "LongName": "Pupil position (x)",
+        "Description": "Pupil position x-coordinate normalized as a proportion of the width of the eye video frame. A value of 0 indicates the left of the frame.",
+        "Units": "pixel"
+    },
+    "pupil_y_coordinate": {
+        "LongName": "Pupil position (y)",
+        "Description": "Pupil position y-coordinate normalized as a proportion of the height of the eye video frame. Values are ranging from 0 to 1. A value of 0 indicates the bottom of the frame.",
+        "Units": "pixel"
+    },
+    "pupil_diameter": {
+        "Description": "Diameter of the pupil as observed in the eye image frame (not corrected for perspective).",
+        "Units": "pixel"
+    },
+    "pupil_ellipse_axe_a": {
+        "Description": "Length of the first axis of the 2D fitted ellipse used to model of the pupil.",
+        "Units": "pixel"
+    },
+    "pupil_ellipse_axe_b": {
+        "Description": "Length of the second axis of the 2D fitted ellipse used to model of the pupil.",
+        "Units": "pixel"
+    },
+    "pupil_ellipse_angle": {
+        "Description": "Orientation of the 2D fitted ellipse used to model the pupil.",
+        "Units": "degrees"
+    },
+    "pupil_ellipse_center_x": {
+        "Description": "x-coordinate of the center of the 2D fitted ellipse used to model the pupil.",
+        "Units": "pixel"
+    },
+    "pupil_ellipse_center_y": {
+        "Description": "y-coordinate of the center of the 2D fitted ellipse used to model the pupil",
+        "Units": "pixel"
+    }
+}
