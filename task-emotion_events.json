@@ -1,0 +1,183 @@
+{
+    "onset": {
+        "Description": "Actual onset of the events accounting for the presentation delays"
+    },
+    "duration": {
+        "Description": "Total duration of the events (some videos were repeated)"
+    },
+    "trial_type": {
+        "LongName": "Event type",
+        "Description": "Event type presented during the task",
+        "Levels": {
+            "fixation": "Fixation marker consisting of three concentric circles presented at the middle of the screen",
+            "stimulus": "Video without sound"
+        }
+    },
+    "onset_schedule": {
+        "Description": "Onset of the event as pre-defined in the paradigm"
+    },
+    "duration_original": {
+        "Description": "Duration of the original event"
+    },
+    "repetition": {
+        "Description": "Number of times a video was repeated"
+    },
+    "iti": {
+        "Description": "Inter trial interval"
+    },
+    "ran": {
+        "Description": "Boolean indicating whether or not a video was presented",
+        "Levels": {
+            "0": "False",
+            "1": "True"
+        }
+    },
+    "order": {
+        "Description": "Order of the event per trial_type"
+    },
+    "index": {
+        "Description": "Index of the video from the original ratings file"
+    },
+    "adoration": {
+        "Description": "Proportion of raters that has selected the category Adoration for a given video"
+    },
+    "admiration": {
+        "Description": "Proportion of raters that has selected the category Admiration for a given video"
+    },
+    "aesthetic_appreciation": {
+        "Description": "Proportion of raters that has selected the category Aesthetic Appreciation for a given video"
+    },
+    "amusement": {
+        "Description": "Proportion of raters that has selected the category Amusement for a given video"
+    },
+    "anger": {
+        "Description": "Proportion of raters that has selected the category Anger for a given video"
+    },
+    "anxiety": {
+        "Description": "Proportion of raters that has selected the category Anxiety for a given video"
+    },
+    "awe": {
+        "Description": "Proportion of raters that has selected the category Awe for a given video"
+    },
+    "awkwardness": {
+        "Description": "Proportion of raters that has selected the category Awkwardness for a given video"
+    },
+    "boredom": {
+        "Description": "Proportion of raters that has selected the category Boredom for a given video"
+    },
+    "calmness": {
+        "Description": "Proportion of raters that has selected the category Calmness for a given video"
+    },
+    "confusion": {
+        "Description": "Proportion of raters that has selected the category Confusion for a given video"
+    },
+    "craving": {
+        "Description": "Proportion of raters that has selected the category Craving for a given video"
+    },
+    "disgust": {
+        "Description": "Proportion of raters that has selected the category Disgust for a given video"
+    },
+    "empathic_pain": {
+        "Description": "Proportion of raters that has selected the category Empathic Pain for a given video"
+    },
+    "entrancement": {
+        "Description": "Proportion of raters that has selected the category Entrancement for a given video"
+    },
+    "excitement": {
+        "Description": "Proportion of raters that has selected the category Excitement for a given video"
+    },
+    "fear": {
+        "Description": "Proportion of raters that has selected the category Fear for a given video"
+    },
+    "horror": {
+        "Description": "Proportion of raters that has selected the category Horror for a given video"
+    },
+    "interest": {
+        "Description": "Proportion of raters that has selected the category Interest for a given video"
+    },
+    "joy": {
+        "Description": "Proportion of raters that has selected the category Joy for a given video"
+    },
+    "nostalgia": {
+        "Description": "Proportion of raters that has selected the category Nostalgia for a given video"
+    },
+    "relief": {
+        "Description": "Proportion of raters that has selected the category Relief for a given video"
+    },
+    "romance": {
+        "Description": "Proportion of raters that has selected the category Romance for a given video"
+    },
+    "sadness": {
+        "Description": "Proportion of raters that has selected the category Sadness for a given video"
+    },
+    "satisfaction": {
+        "Description": "Proportion of raters that has selected the category Satisfaction for a given video"
+    },
+    "sexual_desire": {
+        "Description": "Proportion of raters that has selected the category Sexual Desire for a given video"
+    },
+    "surprise": {
+        "Description": "Proportion of raters that has selected the category Surprise for a given video"
+    },
+    "category": {
+        "Description": "Name of the category with the highest score (proportion reported)"
+    },
+    "approach": {
+        "Description": "To what extent does this make you feel like this is something you would want to approach? (desire to avoid… desire to approach) (1…9)"
+    },
+    "arousal": {
+        "Description": "To what extent does this make you feel stimulated? (more subdued… more stimulated) (1…9)"
+    },
+    "attention": {
+        "Description": "To what extent does this make you feel focused? (more unfocused… more focused) (1…9)"
+    },
+    "certainty": {
+        "Description": "To what extent does this make you feel certain? (very uncertain… very certain) (1…9)"
+    },
+    "commitment": {
+        "Description": "To what extent does this make you feel a sense of commitment to an individual or creature? (lack of commitment to an individual/creature …strong commitment to an individual/creature) (1…9)"
+    },
+    "control": {
+        "Description": "To what extent does this make you feel like things are under control? (things seem out of control… things seem under control) (1…9)"
+    },
+    "dominance": {
+        "Description": "To what extent does this make you feel dominant? (more submissive… more dominant) (1…9)"
+    },
+    "effort": {
+        "Description": "To what extent does this make you feel like viewing this demands effort? (no effort whatsoever… enormous effort) (1…9)"
+    },
+    "fairness": {
+        "Description": "To what extent does this make you feel like things are fair? (sense of unfairness… sense of fairness) (1…9)"
+    },
+    "identity": {
+        "Description": "To what extent does this make you feel like you identify with a group of people? (lack of group identity… strong group identity) (1…9)"
+    },
+    "obstruction": {
+        "Description": "To what extent does this make you feel like you are obstructed by something? (very unobstructed… very obstructed) (1…9)"
+    },
+    "safety": {
+        "Description": "To what extent does this make you feel a sense of safety? (very unsafe… very safe) (1…9)"
+    },
+    "upswing": {
+        "Description": "To what extent does this make you feel like this went better than it first seemed it would? (worse than expected… better than expected) (1…9)"
+    },
+    "valence": {
+        "Description": "To what extent does this make you feel pleasant? (very unpleasant… very pleasant) (1…9)"
+    },
+    "StimulusPresentation": {
+        "ScreenDistance": 1.8,
+        "ScreenOrigin": [
+            "bottom",
+            "left"
+        ],
+        "ScreenRefreshRate": 60,
+        "ScreenResolution": [
+            1280,
+            1024
+        ],
+        "ScreenSize": [
+            0.55,
+            0.44
+        ]
+    }
+}
